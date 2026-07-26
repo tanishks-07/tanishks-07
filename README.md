@@ -16,8 +16,6 @@
 
 📍 Passionate about Software Development and Problem Solving
 
-📊 **First Year YGPA:** **7.53**
-
 🌱 Currently Learning:
 - Data Structures & Algorithms (C++)
 - Cloud Computing
