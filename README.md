@@ -1,65 +1,124 @@
 <div align="center">
 
-# 👋 Hi, I'm Tanishk Singh
+# TANISHK SINGH
 
-### `B.Tech CSE Student` · `Problem Solver` · `Builder in Progress`
+### `CS STUDENT`  ·  `BUILDER`  ·  `PROBLEM SOLVER`
 
-<p>
-  <a href="https://github.com/Tanishks-07">GitHub</a> •
-  <a href="https://leetcode.com/u/Tanishk63/">LeetCode</a> •
-  <a href="https://www.codechef.com/users/tanishk63">CodeChef</a> •
-  <a href="https://www.hackerrank.com/profile/Tanishksingh177">HackerRank</a> •
-  <a href="https://www.linkedin.com/in/tanishk-singh-4210b6396/">LinkedIn</a>
-</p>
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  SYSTEM STATUS                                               │
+│                                                              │
+│  > BUILDING                                                  │
+│  > LEARNING: C++ · DSA · WEB · CLOUD                         │
+│  > MODE: LEARN → BUILD → BREAK → FIX → REPEAT               │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
 
-**Learning by building. Solving by practice. Growing one commit at a time.**
+[ GitHub ](https://github.com/Tanishks-07) ·
+[ Portfolio ](https://tanishks-07.vercel.app/) ·
+[ LinkedIn ](https://www.linkedin.com/in/tanishk-singh-4210b6396/)
 
 </div>
 
 ---
 
-## 🧭 About Me
+# `01 / IDENTITY`
 
-I'm a **B.Tech Computer Science Engineering student** focused on turning fundamentals into practical skills.
+I'm a **B.Tech Computer Science Engineering student** building my foundation one problem, one project, and one experiment at a time.
 
-- 💻 Building my foundation in **C++ and Data Structures & Algorithms**
-- 🌐 Exploring **Web Development**
-- ☁️ Learning **Cloud Computing**
-- 🧠 Practicing problem solving through coding platforms
-- 🚀 Working toward becoming a strong **Software Engineer**
+I enjoy the part of development where an idea stops being an idea and becomes something that actually works.
 
-> **My approach:** learn the concept → write the code → build something → repeat.
+```text
+CURRENT FOCUS
+─────────────
+01  Problem Solving       ███████████████░░░░░
+02  C++ / DSA             █████████████░░░░░░░
+03  Web Development       ███████████████░░░░░
+04  Cloud Computing       █████░░░░░░░░░░░░░░
+```
 
----
-
-## ⚡ What I'm Working On
-
-| Focus | What it means |
-|---|---|
-| 🧩 **DSA** | Strengthening problem-solving and algorithmic thinking with C++ |
-| 🌐 **Web Development** | Improving HTML/CSS and moving deeper into JavaScript |
-| ☁️ **Cloud** | Building foundational cloud knowledge |
-| 🛠️ **Projects** | Turning ideas into practical, working projects |
-| 🌱 **Open Source** | Learning how to collaborate and contribute |
+> **Principle:** Don't just consume tutorials. Build enough to discover what you don't know.
 
 ---
 
-## 🛠️ Tech Stack
+# `02 / BUILD CYCLE`
 
-### Languages & Web
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-03599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+My learning loop is simple:
 
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+```text
+        ┌──────────┐
+        │  LEARN   │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │ PRACTICE │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │  BUILD   │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │  SHARE   │
+        └────┬─────┘
+             ↓
+        ┌──────────┐
+        │ IMPROVE  │
+        └────┬─────┘
+             └──────────────→ back to LEARN
+```
+
+Every repository is part of that loop.
 
 ---
 
-## 📊 GitHub Snapshot
+# `03 / ACTIVE MODULES`
+
+### `DSA / C++`
+Strengthening algorithms, data structures, logic, and problem-solving skills.
+
+### `WEB`
+Building stronger HTML/CSS fundamentals and moving toward JavaScript.
+
+### `CLOUD`
+Learning the fundamentals of cloud computing and how modern applications are deployed.
+
+### `PROJECTS`
+Turning concepts into practical builds instead of leaving them as notes.
+
+---
+
+# `04 / TOOLBOX`
+
+```text
+LANGUAGES
+─────────
+C++     █████████████████
+C       ███████████████
+HTML    ██████████████████
+CSS     ██████████████████
+
+TOOLS
+─────
+Git
+GitHub
+VS Code
+```
+
+<p align="left">
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/C-03599C?style=flat-square&logo=c&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
+</p>
+
+---
+
+# `05 / GITHUB TELEMETRY`
 
 <div align="center">
 
@@ -75,88 +134,77 @@ I'm a **B.Tech Computer Science Engineering student** focused on turning fundame
 
 ---
 
-## 🏆 GitHub Trophies
+# `06 / PROBLEM SOLVING`
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Tanishks-07&theme=tokyonight&no-frame=true&margin-w=10">
-
-</div>
-
----
-
-## 📈 Current Learning Map
-
-```text
-C++              █████████████░░░░░░░  65%
-DSA              ████████████░░░░░░░░  60%
-HTML / CSS       ███████████████░░░░░░  75%
-JavaScript       ██████░░░░░░░░░░░░░░░  30%
-Cloud Computing  █████░░░░░░░░░░░░░░░░  25%
-Git & GitHub     ████████████░░░░░░░░░  60%
-```
-
-> Progress is a snapshot, not a finish line.
-
----
-
-## 🎯 Roadmap
-
-- [ ] Strengthen DSA fundamentals
-- [ ] Become more confident with C++
-- [ ] Build full-stack projects
-- [ ] Develop practical cloud skills
-- [ ] Contribute to open source
-- [ ] Earn a software engineering internship
-
----
-
-## 🔗 Coding & Professional Profiles
+I use coding platforms to turn concepts into repetition and repetition into instinct.
 
 | Platform | Profile |
 |---|---|
-| 💻 GitHub | [@Tanishks-07](https://github.com/Tanishks-07) |
-| 🟠 LeetCode | [Tanishk63](https://leetcode.com/u/Tanishk63/) |
-| 🟤 CodeChef | [tanishk63](https://www.codechef.com/users/tanishk63) |
-| 🟢 HackerRank | [Tanishksingh177](https://www.hackerrank.com/profile/Tanishksingh177) |
-| 🔵 LinkedIn | [Tanishk Singh](https://www.linkedin.com/in/tanishk-singh-4210b6396/) |
-| 🌐 Portfolio | [tanishks-07.vercel.app](https://tanishks-07.vercel.app/) |
+| 🟠 **LeetCode** | [Tanishk63](https://leetcode.com/u/Tanishk63/) |
+| 🟤 **CodeChef** | [tanishk63](https://www.codechef.com/users/tanishk63) |
+| 🟢 **HackerRank** | [Tanishksingh177](https://www.hackerrank.com/profile/Tanishksingh177) |
 
 ---
 
-## 🧪 The Builder Mindset
+# `07 / ROADMAP`
 
-I don't want my GitHub to be just a collection of repositories.
+```text
+NOW
+ │
+ ├──► Strengthen C++ + DSA
+ │
+ ├──► Build stronger web projects
+ │
+ ├──► Learn JavaScript
+ │
+ ├──► Develop cloud fundamentals
+ │
+ ├──► Explore open source
+ │
+ └──► Prepare for software engineering internships
+```
 
-I want it to show **progress**:
+### Definition of progress
 
-**Learn → Practice → Build → Share → Improve**
-
-Every project, solved problem, and contribution is another step toward becoming a better engineer.
+```text
+not     "I know everything."
+but     "I can solve something today that I couldn't solve yesterday."
+```
 
 ---
 
-## 💬 A Note to My Future Self
+# `08 / GITHUB`
 
-> **Don't chase perfection. Chase progress that compounds.**
+**Primary workspace**
+
+→ [github.com/Tanishks-07](https://github.com/Tanishks-07)
+
+This is where the learning process becomes visible: code, experiments, projects, and progress.
+
+---
+
+# `09 / CONNECT`
 
 <div align="center">
 
-### 🤝 Let's Connect
+**Want to talk about coding, projects, hackathons, or learning?**
 
-If you're interested in coding, projects, hackathons, or learning together, feel free to connect.
+[LinkedIn](https://www.linkedin.com/in/tanishk-singh-4210b6396/)  ·
+[GitHub](https://github.com/Tanishks-07)  ·
+[Portfolio](https://tanishks-07.vercel.app/)
 
 <br>
 
-<a href="https://www.linkedin.com/in/tanishk-singh-4210b6396/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-</a>
-<a href="https://github.com/Tanishks-07">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github">
-</a>
+```text
+┌──────────────────────────────────────────┐
+│                                          │
+│   BUILD SOMETHING.                      │
+│   LEARN SOMETHING.                      │
+│   DO IT AGAIN.                          │
+│                                          │
+└──────────────────────────────────────────┘
+```
 
-<br><br>
-
-⭐ **Thanks for visiting my profile!**
+⭐ Thanks for stopping by.
 
 </div>
