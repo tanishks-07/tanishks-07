@@ -1,124 +1,137 @@
 <div align="center">
 
-# TANISHK SINGH
+# ✦ TANISHK SINGH
 
-### `CS STUDENT`  ·  `BUILDER`  ·  `PROBLEM SOLVER`
+### COMPUTER SCIENCE STUDENT · BUILDER · PROBLEM SOLVER
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│  SYSTEM STATUS                                               │
-│                                                              │
-│  > BUILDING                                                  │
-│  > LEARNING: C++ · DSA · WEB · CLOUD                         │
-│  > MODE: LEARN → BUILD → BREAK → FIX → REPEAT               │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
+<p>
+  <a href="https://github.com/Tanishks-07">GitHub</a>
+  &nbsp;•&nbsp;
+  <a href="https://tanishks-07.vercel.app/">Portfolio</a>
+  &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/tanishk-singh-4210b6396/">LinkedIn</a>
+</p>
 
-[ GitHub ](https://github.com/Tanishks-07) ·
-[ Portfolio ](https://tanishks-07.vercel.app/) ·
-[ LinkedIn ](https://www.linkedin.com/in/tanishk-singh-4210b6396/)
+### `LEARN` → `BUILD` → `SHIP` → `IMPROVE`
 
 </div>
 
 ---
 
-# `01 / IDENTITY`
+## ✦ ABOUT
 
-I'm a **B.Tech Computer Science Engineering student** building my foundation one problem, one project, and one experiment at a time.
+I'm a **B.Tech Computer Science Engineering student** focused on turning programming fundamentals into practical work.
 
-I enjoy the part of development where an idea stops being an idea and becomes something that actually works.
+Right now, I'm building depth in **C++ and DSA**, exploring **web development**, and learning the fundamentals of **cloud computing**.
+
+I don't want my profile to only show what I know.  
+I want it to show **what I'm building, what I'm learning, and how I'm improving.**
+
+---
+
+## ◈ CURRENTLY
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🧠 DSA
+
+Problem solving  
+Algorithms  
+Data structures  
+C++
+
+</td>
+<td width="33%" align="center">
+
+### 🌐 WEB
+
+HTML  
+CSS  
+JavaScript — next  
+Project building
+
+</td>
+<td width="33%" align="center">
+
+### ☁️ CLOUD
+
+Cloud fundamentals  
+Modern deployment  
+Exploration  
+Learning by doing
+
+</td>
+</tr>
+</table>
+
+---
+
+## ✦ MY STACK
+
+### Languages
+
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-03599C?style=for-the-badge&logo=c&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Tools
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+## ◇ HOW I LEARN
+
+<div align="center">
+
+### `01` DISCOVER
+&nbsp; ↓ &nbsp;
+### `02` PRACTICE
+&nbsp; ↓ &nbsp;
+### `03` BUILD
+&nbsp; ↓ &nbsp;
+### `04` SHARE
+&nbsp; ↓ &nbsp;
+### `05` IMPROVE
+
+</div>
+
+Every problem solved and every project built is another iteration.
+
+> **The goal isn't to know everything. The goal is to become better at building things.**
+
+---
+
+## 🚀 BUILD SPACE
+
+My repositories are where concepts become tangible.
 
 ```text
-CURRENT FOCUS
-─────────────
-01  Problem Solving       ███████████████░░░░░
-02  C++ / DSA             █████████████░░░░░░░
-03  Web Development       ███████████████░░░░░
-04  Cloud Computing       █████░░░░░░░░░░░░░░
+IDEA
+ │
+ ├── research
+ │
+ ├── experiment
+ │
+ ├── code
+ │
+ ├── debug
+ │
+ └── ship
+      │
+      └── learn something new
 ```
 
-> **Principle:** Don't just consume tutorials. Build enough to discover what you don't know.
+I'm especially interested in projects that help me move from **learning a technology → actually using it**.
 
 ---
 
-# `02 / BUILD CYCLE`
-
-My learning loop is simple:
-
-```text
-        ┌──────────┐
-        │  LEARN   │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │ PRACTICE │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │  BUILD   │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │  SHARE   │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │ IMPROVE  │
-        └────┬─────┘
-             └──────────────→ back to LEARN
-```
-
-Every repository is part of that loop.
-
----
-
-# `03 / ACTIVE MODULES`
-
-### `DSA / C++`
-Strengthening algorithms, data structures, logic, and problem-solving skills.
-
-### `WEB`
-Building stronger HTML/CSS fundamentals and moving toward JavaScript.
-
-### `CLOUD`
-Learning the fundamentals of cloud computing and how modern applications are deployed.
-
-### `PROJECTS`
-Turning concepts into practical builds instead of leaving them as notes.
-
----
-
-# `04 / TOOLBOX`
-
-```text
-LANGUAGES
-─────────
-C++     █████████████████
-C       ███████████████
-HTML    ██████████████████
-CSS     ██████████████████
-
-TOOLS
-─────
-Git
-GitHub
-VS Code
-```
-
-<p align="left">
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/C-03599C?style=flat-square&logo=c&logoColor=white">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white">
-</p>
-
----
-
-# `05 / GITHUB TELEMETRY`
+## 📊 GITHUB ACTIVITY
 
 <div align="center">
 
@@ -126,7 +139,7 @@ VS Code
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanishks-07&layout=compact&hide_border=true&theme=tokyonight" height="165">
 
-<br>
+<br><br>
 
 <img src="https://streak-stats.demolab.com?user=Tanishks-07&theme=tokyonight&hide_border=true" height="165">
 
@@ -134,77 +147,86 @@ VS Code
 
 ---
 
-# `06 / PROBLEM SOLVING`
+## 🏆 CODING ARENA
 
-I use coding platforms to turn concepts into repetition and repetition into instinct.
+Practice is where I sharpen the fundamentals.
 
 | Platform | Profile |
-|---|---|
+|:--|:--|
 | 🟠 **LeetCode** | [Tanishk63](https://leetcode.com/u/Tanishk63/) |
 | 🟤 **CodeChef** | [tanishk63](https://www.codechef.com/users/tanishk63) |
 | 🟢 **HackerRank** | [Tanishksingh177](https://www.hackerrank.com/profile/Tanishksingh177) |
 
 ---
 
-# `07 / ROADMAP`
+## 🧭 NEXT MILESTONES
 
 ```text
-NOW
- │
- ├──► Strengthen C++ + DSA
- │
- ├──► Build stronger web projects
- │
- ├──► Learn JavaScript
- │
- ├──► Develop cloud fundamentals
- │
- ├──► Explore open source
- │
- └──► Prepare for software engineering internships
-```
-
-### Definition of progress
-
-```text
-not     "I know everything."
-but     "I can solve something today that I couldn't solve yesterday."
+FOUNDATION
+   │
+   ├──► C++ + DSA
+   │
+   ├──► Stronger web fundamentals
+   │
+   └──► Cloud fundamentals
+          │
+          ▼
+     EXPANSION
+          │
+          ├──► JavaScript
+          ├──► Full-stack projects
+          └──► Open-source contribution
+                    │
+                    ▼
+                 TARGET
+                    │
+                    └──► Software Engineering Internship
 ```
 
 ---
 
-# `08 / GITHUB`
+## ✦ BEYOND THE CODE
 
-**Primary workspace**
+I care about **consistency more than perfection**.
 
-→ [github.com/Tanishks-07](https://github.com/Tanishks-07)
+Some days mean solving problems.  
+Some days mean building a project.  
+Some days mean debugging one stubborn error for far too long.
 
-This is where the learning process becomes visible: code, experiments, projects, and progress.
+All of them count.
+
+```text
+progress ≠ knowing everything
+
+progress = knowing more than yesterday
+```
 
 ---
 
-# `09 / CONNECT`
+## 🌍 FIND ME
 
 <div align="center">
 
-**Want to talk about coding, projects, hackathons, or learning?**
+<a href="https://github.com/Tanishks-07">
+<img src="https://img.shields.io/badge/GitHub-Tanishks--07-181717?style=for-the-badge&logo=github">
+</a>
 
-[LinkedIn](https://www.linkedin.com/in/tanishk-singh-4210b6396/)  ·
-[GitHub](https://github.com/Tanishks-07)  ·
-[Portfolio](https://tanishks-07.vercel.app/)
+<a href="https://www.linkedin.com/in/tanishk-singh-4210b6396/">
+<img src="https://img.shields.io/badge/LinkedIn-Tanishk%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
 
-<br>
+<a href="https://tanishks-07.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
 
-```text
-┌──────────────────────────────────────────┐
-│                                          │
-│   BUILD SOMETHING.                      │
-│   LEARN SOMETHING.                      │
-│   DO IT AGAIN.                          │
-│                                          │
-└──────────────────────────────────────────┘
-```
+</div>
 
-⭐ Thanks for stopping by.
+---
+
+<div align="center">
+
+### ✦ BUILD WITH PURPOSE. LEARN WITHOUT STOPPING.
+
+**Thanks for visiting.**
 
 </div>
