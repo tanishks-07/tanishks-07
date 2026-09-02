@@ -3,426 +3,561 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tanishk Singh | Portfolio</title>
+  <meta name="description" content="Tanishk Singh — Computer Science student, builder and problem solver.">
+  <title>Tanishk Singh | Developer Portfolio</title>
+
   <style>
     :root {
-      --bg: #0b1020;
-      --card: #121a2e;
-      --card-2: #17213a;
-      --text: #eef2ff;
-      --muted: #aab4d0;
-      --accent: #7c9cff;
-      --border: rgba(255,255,255,.1);
+      --bg: #080b14;
+      --surface: rgba(18, 23, 38, 0.78);
+      --surface-2: rgba(25, 31, 50, 0.72);
+      --text: #f7f8ff;
+      --muted: #9ba4bd;
+      --line: rgba(255,255,255,.09);
+      --purple: #9b7cff;
+      --cyan: #48d9ff;
+      --pink: #ff65b3;
+      --green: #58e6a7;
+      --yellow: #ffd166;
+      --shadow: 0 24px 80px rgba(0,0,0,.35);
     }
 
-    * { box-sizing: border-box; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     html { scroll-behavior: smooth; }
 
     body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #080c18, var(--bg));
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(155,124,255,.18), transparent 28rem),
+        radial-gradient(circle at 85% 18%, rgba(72,217,255,.12), transparent 26rem),
+        radial-gradient(circle at 70% 75%, rgba(255,101,179,.09), transparent 24rem),
+        var(--bg);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.65;
+      overflow-x: hidden;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+    a { color: inherit; text-decoration: none; }
 
-    .container {
-      width: min(1100px, 92%);
-      margin: auto;
-    }
+    .container { width: min(1120px, calc(100% - 40px)); margin: auto; }
 
     nav {
       position: sticky;
       top: 0;
-      z-index: 10;
-      backdrop-filter: blur(14px);
-      background: rgba(8, 12, 24, .8);
-      border-bottom: 1px solid var(--border);
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(8,11,20,.72);
+      border-bottom: 1px solid var(--line);
     }
 
-    nav .container {
+    .nav-inner {
+      height: 72px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 16px 0;
+      justify-content: space-between;
     }
 
     .logo {
-      font-size: 1.15rem;
-      font-weight: 800;
+      font-weight: 900;
+      letter-spacing: .12em;
+      font-size: 15px;
     }
+
+    .logo span { color: var(--purple); }
 
     .nav-links {
       display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .nav-links a {
+      gap: 24px;
       color: var(--muted);
-      font-size: .95rem;
+      font-size: 14px;
     }
 
-    .nav-links a:hover { color: white; }
+    .nav-links a:hover { color: var(--text); }
 
-    header {
-      text-align: center;
+    .hero {
+      min-height: 82vh;
+      display: grid;
+      place-items: center;
       padding: 90px 0 70px;
     }
 
-    .hello {
-      font-size: 2.7rem;
-      margin: 0 0 10px;
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.35fr .65fr;
+      gap: 42px;
+      align-items: center;
     }
 
-    .hero-title {
-      color: var(--accent);
-      font-size: 1.2rem;
-      font-weight: 700;
+    .eyebrow {
+      color: var(--cyan);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
     }
 
-    .quote {
+    h1 {
+      font-size: clamp(56px, 9vw, 108px);
+      line-height: .92;
+      letter-spacing: -.065em;
+      max-width: 800px;
+    }
+
+    .gradient {
+      background: linear-gradient(100deg, var(--purple), var(--cyan), var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-copy {
+      max-width: 670px;
       color: var(--muted);
-      font-style: italic;
-      margin-top: 20px;
+      font-size: 20px;
+      margin: 26px 0 30px;
     }
 
-    section {
-      padding: 55px 0;
+    .buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .btn {
+      border: 1px solid var(--line);
+      padding: 11px 17px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.035);
+      transition: .25s ease;
+      font-weight: 750;
+      font-size: 14px;
     }
 
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 25px;
+    .btn.primary {
+      border-color: transparent;
+      background: linear-gradient(100deg, var(--purple), #6e8cff);
+      box-shadow: 0 10px 35px rgba(126,105,255,.28);
+    }
+
+    .btn:hover { transform: translateY(-3px); border-color: rgba(255,255,255,.2); }
+
+    .status-card {
+      position: relative;
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(145deg, rgba(155,124,255,.12), rgba(72,217,255,.04));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .status-card::before {
+      content: "";
+      position: absolute;
+      width: 170px;
+      height: 170px;
+      right: -80px;
+      top: -80px;
+      border-radius: 50%;
+      background: var(--pink);
+      filter: blur(70px);
+      opacity: .22;
+    }
+
+    .status-top {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--green);
+      font-weight: 800;
+      margin-bottom: 24px;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 16px var(--green);
+    }
+
+    .terminal-line {
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 13px;
+      color: var(--muted);
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .terminal-line b { color: var(--text); }
+
+    section { padding: 95px 0; }
+
+    .section-kicker {
+      color: var(--purple);
+      font: 800 12px/1 monospace;
+      letter-spacing: .18em;
+      margin-bottom: 13px;
+    }
+
+    h2 {
+      font-size: clamp(32px, 5vw, 54px);
+      letter-spacing: -.045em;
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .section-intro { color: var(--muted); max-width: 680px; margin-bottom: 38px; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 17px;
     }
 
     .card {
-      background: rgba(18, 26, 46, .85);
-      border: 1px solid var(--border);
-      border-radius: 18px;
       padding: 28px;
-      box-shadow: 0 15px 40px rgba(0,0,0,.2);
+      min-height: 205px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--surface);
+      backdrop-filter: blur(14px);
+      transition: .3s ease;
     }
 
-    ul {
-      padding-left: 22px;
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(155,124,255,.42);
+      box-shadow: 0 18px 55px rgba(0,0,0,.22);
     }
+
+    .icon {
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+
+    .card h3 { font-size: 20px; margin-bottom: 8px; }
+    .card p { color: var(--muted); font-size: 14px; }
+
+    .wide-card {
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--surface);
+    }
+
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .step {
+      padding: 15px 20px;
+      border-radius: 15px;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      font-weight: 800;
+    }
+
+    .arrow { color: var(--purple); font-weight: 900; }
 
     .stack {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
     }
 
-    .badge {
-      display: inline-block;
-      margin: 6px 5px 6px 0;
-      padding: 8px 13px;
-      border-radius: 999px;
-      background: var(--card-2);
-      border: 1px solid var(--border);
-      font-size: .9rem;
+    .tag {
+      padding: 9px 13px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      font: 700 13px monospace;
     }
+
+    .tag:nth-child(3n) { color: var(--cyan); }
+    .tag:nth-child(3n+1) { color: var(--purple); }
+    .tag:nth-child(3n+2) { color: var(--pink); }
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: 1fr 1fr;
       gap: 18px;
+      margin-top: 28px;
     }
 
     .stats img {
       width: 100%;
-      border-radius: 12px;
-      background: #111827;
+      height: 190px;
+      object-fit: contain;
+      background: rgba(255,255,255,.025);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 8px;
     }
 
-    .goals li {
-      margin: 10px 0;
+    .roadmap {
+      display: grid;
+      gap: 12px;
+      max-width: 780px;
     }
+
+    .road {
+      display: grid;
+      grid-template-columns: 95px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.025);
+    }
+
+    .road strong { color: var(--cyan); font-family: monospace; }
 
     .profiles {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
     }
 
     .profile {
-      display: block;
-      padding: 18px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      transition: transform .2s, border-color .2s;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
     }
 
-    .profile:hover {
-      transform: translateY(-3px);
-      border-color: var(--accent);
-    }
-
-    .progress {
-      margin: 18px 0;
-    }
-
-    .progress-head {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 7px;
-    }
-
-    .bar {
-      height: 11px;
-      background: #252f49;
-      border-radius: 20px;
-      overflow: hidden;
-    }
-
-    .fill {
-      height: 100%;
-      width: var(--width);
-      background: var(--accent);
-      border-radius: inherit;
-    }
-
-    .connect {
-      text-align: center;
-    }
-
-    .buttons {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 25px;
-    }
-
-    .btn {
-      padding: 11px 18px;
-      border-radius: 10px;
-      background: var(--card-2);
-      border: 1px solid var(--border);
-      font-weight: 700;
-    }
-
-    .btn:hover {
-      border-color: var(--accent);
-    }
+    .profile span { color: var(--muted); font-size: 12px; }
+    .profile h3 { margin-top: 3px; }
 
     footer {
+      padding: 55px 0 70px;
       text-align: center;
-      color: var(--muted);
-      padding: 45px 0;
-      border-top: 1px solid var(--border);
+      border-top: 1px solid var(--line);
     }
 
-    @media (max-width: 650px) {
-      .hello { font-size: 2rem; }
+    footer p { color: var(--muted); margin-top: 10px; }
+
+    .footer-mark {
+      font-weight: 900;
+      font-size: 18px;
+      letter-spacing: .08em;
+    }
+
+    @media (max-width: 820px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .cards, .profiles { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: 1fr; }
       .nav-links { display: none; }
-      header { padding-top: 65px; }
+      h1 { font-size: clamp(52px, 15vw, 80px); }
+    }
+
+    @media (max-width: 520px) {
+      .container { width: min(100% - 28px, 1120px); }
+      section { padding: 70px 0; }
+      .hero { padding-top: 65px; }
+      .hero-copy { font-size: 17px; }
+      .road { grid-template-columns: 1fr; gap: 4px; }
     }
   </style>
 </head>
 
 <body>
-
   <nav>
-    <div class="container">
-      <div class="logo">Tanishk Singh</div>
+    <div class="container nav-inner">
+      <a class="logo" href="#top">TS<span>✦</span></a>
       <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#stack">Tech Stack</a>
-        <a href="#stats">GitHub</a>
-        <a href="#goals">Goals</a>
-        <a href="#profiles">Profiles</a>
+        <a href="#stack">Stack</a>
+        <a href="#activity">Activity</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#connect">Connect</a>
       </div>
     </div>
   </nav>
 
-  <header>
-    <div class="container">
-      <h1 class="hello">👋 Hi, I'm Tanishk Singh</h1>
-      <div class="hero-title">💻 B.Tech CSE Student | 🚀 DSA Learner | ☁️ Cloud Computing Enthusiast</div>
-      <p class="quote">"Learning today. Building tomorrow."</p>
-    </div>
-  </header>
+  <main id="top">
+    <header class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Computer Science Student · India</div>
+          <h1>Tanishk<br><span class="gradient">Singh.</span></h1>
+          <p class="hero-copy">
+            Building skills through code, projects and problem solving —
+            one iteration at a time.
+          </p>
 
-  <main class="container">
+          <div class="buttons">
+            <a class="btn primary" href="https://github.com/Tanishks-07" target="_blank">View GitHub ↗</a>
+            <a class="btn" href="https://tanishks-07.vercel.app/" target="_blank">Portfolio ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/tanishk-singh-4210b6396/" target="_blank">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <aside class="status-card">
+          <div class="status-top"><span class="dot"></span> SYSTEM STATUS: BUILDING</div>
+          <div class="terminal-line">&gt; <b>role</b> — CS STUDENT</div>
+          <div class="terminal-line">&gt; <b>focus</b> — C++ · DSA</div>
+          <div class="terminal-line">&gt; <b>exploring</b> — WEB · CLOUD</div>
+          <div class="terminal-line">&gt; <b>mode</b> — LEARN / BUILD / IMPROVE</div>
+        </aside>
+      </div>
+    </header>
 
     <section id="about">
-      <h2>👨‍💻 About Me</h2>
-      <div class="card">
-        <p>🎓 <strong>B.Tech Computer Science Engineering (Second Year)</strong></p>
-        <p>📍 Passionate about Software Development and Problem Solving</p>
+      <div class="container">
+        <div class="section-kicker">01 / ABOUT</div>
+        <h2>Learning with a<br><span class="gradient">builder's mindset.</span></h2>
+        <p class="section-intro">
+          I'm a B.Tech Computer Science Engineering student building my foundation
+          in programming and software development. I care about moving from
+          concepts to things that actually work.
+        </p>
 
-        <h3>🌱 Currently Learning</h3>
-        <ul>
-          <li>Data Structures &amp; Algorithms (C++)</li>
-          <li>Cloud Computing</li>
-          <li>Web Development</li>
-        </ul>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">🧠</div>
+            <h3>Problem Solving</h3>
+            <p>Strengthening algorithms, data structures, logic and coding fundamentals with C++.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🌐</div>
+            <h3>Web Development</h3>
+            <p>Building stronger HTML/CSS fundamentals and moving toward JavaScript.</p>
+          </article>
+          <article class="card">
+            <div class="icon">☁️</div>
+            <h3>Cloud Computing</h3>
+            <p>Learning cloud fundamentals and understanding how modern applications are deployed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <h3>🎯 Goal</h3>
-        <blockquote>
-          Become a skilled Software Engineer, build impactful projects, and continuously improve through learning and consistency.
-        </blockquote>
+    <section>
+      <div class="container">
+        <div class="section-kicker">02 / BUILD LOOP</div>
+        <h2>How I turn learning<br>into <span class="gradient">progress.</span></h2>
+
+        <div class="wide-card">
+          <div class="flow">
+            <div class="step">01 · LEARN</div><div class="arrow">→</div>
+            <div class="step">02 · PRACTICE</div><div class="arrow">→</div>
+            <div class="step">03 · BUILD</div><div class="arrow">→</div>
+            <div class="step">04 · SHARE</div><div class="arrow">→</div>
+            <div class="step">05 · IMPROVE</div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="stack">
-      <h2>🛠 Tech Stack</h2>
-      <div class="stack">
-        <div class="card">
-          <h3>Languages</h3>
-          <span class="badge">C++</span>
-          <span class="badge">C</span>
-          <span class="badge">HTML</span>
-          <span class="badge">CSS</span>
-        </div>
-        <div class="card">
-          <h3>Tools</h3>
-          <span class="badge">Git</span>
-          <span class="badge">GitHub</span>
-          <span class="badge">VS Code</span>
-        </div>
-      </div>
-    </section>
+      <div class="container">
+        <div class="section-kicker">03 / TOOLBOX</div>
+        <h2>The tools behind<br>the <span class="gradient">builds.</span></h2>
 
-    <section id="stats">
-      <h2>📊 GitHub Stats</h2>
-      <div class="stats">
-        <div class="card">
-          <img src="https://github-readme-stats.vercel.app/api?username=Tanishks-07&theme=tokyonight&show_icons=true&hide_border=true" alt="GitHub Stats">
-        </div>
-        <div class="card">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanishks-07&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
-        </div>
-        <div class="card">
-          <img src="https://streak-stats.demolab.com?user=Tanishks-07&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+        <div class="wide-card">
+          <div class="stack">
+            <span class="tag">C++</span>
+            <span class="tag">C</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
-      <h2>🏆 GitHub Trophies</h2>
-      <div class="card" style="text-align:center;">
-        <img
-          src="https://github-profile-trophy.vercel.app/?username=Tanishks-07&theme=tokyonight&no-frame=true&margin-w=10"
-          alt="GitHub Trophies"
-          style="max-width:100%; border-radius:12px;"
-        >
-      </div>
-    </section>
+    <section id="activity">
+      <div class="container">
+        <div class="section-kicker">04 / ACTIVITY</div>
+        <h2>Code in <span class="gradient">motion.</span></h2>
+        <p class="section-intro">
+          A live snapshot of the public GitHub profile.
+        </p>
 
-    <section id="goals">
-      <h2>🎯 Current Goals</h2>
-      <div class="card goals">
-        <ul>
-          <li>📚 Master Data Structures &amp; Algorithms</li>
-          <li>💻 Build Full Stack Projects</li>
-          <li>☁️ Learn Cloud Computing</li>
-          <li>🌍 Contribute to Open Source</li>
-          <li>🚀 Secure a Software Engineering Internship</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="profiles">
-      <h2>📚 Coding Profiles</h2>
-      <div class="profiles">
-        <a class="profile" href="https://github.com/Tanishks-07" target="_blank" rel="noopener">
-          💻 <strong>GitHub</strong><br>
-          <span>github.com/Tanishks-07</span>
-        </a>
-
-        <a class="profile" href="https://leetcode.com/u/Tanishk63/" target="_blank" rel="noopener">
-          🟠 <strong>LeetCode</strong><br>
-          <span>leetcode.com/u/Tanishk63/</span>
-        </a>
-
-        <a class="profile" href="https://www.codechef.com/users/tanishk63" target="_blank" rel="noopener">
-          🟤 <strong>CodeChef</strong><br>
-          <span>codechef.com/users/tanishk63</span>
-        </a>
-
-        <a class="profile" href="https://www.hackerrank.com/profile/Tanishksingh177" target="_blank" rel="noopener">
-          🟢 <strong>HackerRank</strong><br>
-          <span>hackerrank.com/profile/Tanishksingh177</span>
-        </a>
-
-        <a class="profile" href="https://www.linkedin.com/in/tanishk-singh-4210b6396/" target="_blank" rel="noopener">
-          🔵 <strong>LinkedIn</strong><br>
-          <span>linkedin.com/in/tanishk-singh-4210b6396/</span>
-        </a>
+        <div class="stats">
+          <img src="https://github-readme-stats.vercel.app/api?username=Tanishks-07&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub statistics">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanishks-07&layout=compact&hide_border=true&theme=tokyonight" alt="Top programming languages">
+          <img src="https://streak-stats.demolab.com?user=Tanishks-07&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
+          <div class="wide-card" style="display:grid;place-items:center;text-align:center;">
+            <div>
+              <div style="font-size:42px;">✦</div>
+              <h3>Every commit is a snapshot of the journey.</h3>
+              <p style="color:var(--muted);margin-top:7px;">Explore the full workspace on GitHub.</p>
+              <br>
+              <a class="btn primary" href="https://github.com/Tanishks-07" target="_blank">Open GitHub ↗</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section>
-      <h2>📈 Learning Progress</h2>
-      <div class="card">
-        <div class="progress">
-          <div class="progress-head"><span>C++</span><strong>65%</strong></div>
-          <div class="bar"><div class="fill" style="--width:65%"></div></div>
-        </div>
+      <div class="container">
+        <div class="section-kicker">05 / CODING ARENA</div>
+        <h2>Practice becomes<br><span class="gradient">instinct.</span></h2>
 
-        <div class="progress">
-          <div class="progress-head"><span>DSA</span><strong>60%</strong></div>
-          <div class="bar"><div class="fill" style="--width:60%"></div></div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-head"><span>HTML/CSS</span><strong>75%</strong></div>
-          <div class="bar"><div class="fill" style="--width:75%"></div></div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-head"><span>JavaScript</span><strong>30%</strong></div>
-          <div class="bar"><div class="fill" style="--width:30%"></div></div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-head"><span>Cloud Computing</span><strong>25%</strong></div>
-          <div class="bar"><div class="fill" style="--width:25%"></div></div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-head"><span>Git &amp; GitHub</span><strong>60%</strong></div>
-          <div class="bar"><div class="fill" style="--width:60%"></div></div>
+        <div class="profiles">
+          <a class="profile" href="https://leetcode.com/u/Tanishk63/" target="_blank">
+            <span>🟠 LEETCODE</span>
+            <h3>Tanishk63 ↗</h3>
+          </a>
+          <a class="profile" href="https://www.codechef.com/users/tanishk63" target="_blank">
+            <span>🟤 CODECHEF</span>
+            <h3>tanishk63 ↗</h3>
+          </a>
+          <a class="profile" href="https://www.hackerrank.com/profile/Tanishksingh177" target="_blank">
+            <span>🟢 HACKERRANK</span>
+            <h3>Tanishksingh177 ↗</h3>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="connect">
-      <h2>✨ Quote</h2>
-      <div class="card">
-        <blockquote>
-          <strong>"Small improvements every day lead to remarkable results."</strong>
-        </blockquote>
-      </div>
+    <section id="roadmap">
+      <div class="container">
+        <div class="section-kicker">06 / ROADMAP</div>
+        <h2>What's <span class="gradient">next?</span></h2>
 
-      <h2 style="margin-top:55px;">🤝 Let's Connect</h2>
-      <div class="buttons">
-        <a class="btn" href="https://www.linkedin.com/in/tanishk-singh-4210b6396/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://leetcode.com/u/Tanishk63/" target="_blank" rel="noopener">LeetCode</a>
-        <a class="btn" href="https://www.codechef.com/users/tanishk63" target="_blank" rel="noopener">CodeChef</a>
-        <a class="btn" href="https://www.hackerrank.com/profile/Tanishksingh177" target="_blank" rel="noopener">HackerRank</a>
+        <div class="roadmap">
+          <div class="road"><strong>NOW</strong><span>Strengthen C++ + DSA</span></div>
+          <div class="road"><strong>BUILD</strong><span>Create stronger web projects</span></div>
+          <div class="road"><strong>EXPLORE</strong><span>Learn JavaScript and cloud fundamentals</span></div>
+          <div class="road"><strong>CONTRIBUTE</strong><span>Explore open-source contribution</span></div>
+          <div class="road"><strong>TARGET</strong><span>Prepare for a software engineering internship</span></div>
+        </div>
       </div>
-
-      <p style="margin-top:30px;">⭐ Thanks for visiting my profile!</p>
     </section>
 
+    <section id="connect">
+      <div class="container">
+        <div class="wide-card" style="text-align:center;padding:55px 25px;">
+          <div class="section-kicker">07 / CONNECT</div>
+          <h2>Let's build<br><span class="gradient">something.</span></h2>
+          <p class="section-intro" style="margin:0 auto 28px;">
+            Coding, projects, hackathons, learning — I'm always open to connecting.
+          </p>
+          <div class="buttons" style="justify-content:center;">
+            <a class="btn primary" href="https://www.linkedin.com/in/tanishk-singh-4210b6396/" target="_blank">LinkedIn ↗</a>
+            <a class="btn" href="https://github.com/Tanishks-07" target="_blank">GitHub ↗</a>
+            <a class="btn" href="https://tanishks-07.vercel.app/" target="_blank">Portfolio ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="container">
-      © Tanishk Singh • Learning today. Building tomorrow.
+      <div class="footer-mark">TANISHK SINGH <span class="gradient">✦</span></div>
+      <p>Learn. Build. Ship. Improve.</p>
     </div>
   </footer>
-
 </body>
 </html>
